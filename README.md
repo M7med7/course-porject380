@@ -254,7 +254,7 @@ View detailed metrics:
 
 ## 🎓 Academic Context
 
-**Course:** CPIT-380 - Natural Language Processing  
+**Course:** CPIT-380 - Multimedia Technologies
 **Institution:** King Abdulaziz University (KAU)  
 **Faculty:** Faculty of Computing and Information Technology (FCIT)  
 **Semester:** 8th Semester, Fall 2025
