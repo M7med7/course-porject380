@@ -91,8 +91,7 @@ def main():
         )
         
         # Analyze button
-        analyze_button = st.button("🔍 Analyze Sentiment", type="primary", 
-                                   use_container_width=True)
+        analyze_button = st.button("🔍 Analyze Sentiment", type="primary", use_container_width=True)
     
     with col2:
         st.markdown("### 💡 Tips for Best Results")
@@ -103,21 +102,7 @@ def main():
         - Use natural language
         """)
         
-        st.markdown("### 📝 Example Reviews")
-        if st.button("Positive Example"):
-            st.session_state['example_text'] = (
-                "This movie exceeded all my expectations! The cinematography "
-                "was breathtaking, the acting was phenomenal, and the story "
-                "kept me on the edge of my seat. A masterpiece!"
-            )
-        
-        if st.button("Negative Example"):
-            st.session_state['example_text'] = (
-                "What a disappointing film. The plot was confusing, the pacing "
-                "was terrible, and I found myself checking my watch multiple times. "
-                "Would not recommend."
-            )
-    
+   
     # Use example text if available
     if 'example_text' in st.session_state:
         review_text = st.session_state['example_text']
@@ -181,8 +166,9 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: gray;'>
-        <p>Made with ❤️ using Streamlit and Scikit-learn</p>
-        <p>Movie Review Sentiment Analyzer | 2024</p>
+        <p>CPIT 380 Project</p>
+        <p>Students: Mohammed Alharbi,Abdulaziz Almutairi,fahad Alhawas</p>
+        <p>Movie Review Sentiment Analyzer | fall 2025</p>
     </div>
     """, unsafe_allow_html=True)
 
